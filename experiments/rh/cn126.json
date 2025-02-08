@@ -1,0 +1,27 @@
+{
+	"name":"cn126",
+	"architecture":"zen4",
+	"address_function":{
+		"mode":"auto",
+		"module_size":"8"
+	},
+	"rows":{
+		"start":"0",
+		"step":"16",
+		"end":"1600",
+		"aggressors":[
+			{
+				"idx":"7"
+			},
+			{
+				"idx":"15"
+			}
+		]
+	},
+	"hammer":{
+		"start":"40000",
+		"step":"1000",
+		"end":"14000"
+	},
+	"timeout":"90"
+}

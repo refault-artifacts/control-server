@@ -1,0 +1,1 @@
+../../scripts/pwroff.sh

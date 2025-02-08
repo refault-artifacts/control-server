@@ -1,0 +1,27 @@
+{
+	"name":"cn121",
+	"architecture":"raptorlake",
+	"address_function":{
+		"mode":"override",
+		"module_size":"16777216"
+	},
+	"rows":{
+		"start":"0",
+		"step":"16",
+		"end":"1600",
+		"aggressors":[
+			{
+				"idx":"1"
+			},
+			{
+				"idx":"9"
+			}
+		]
+	},
+	"hammer":{
+		"start":"40000",
+		"step":"1000",
+		"end":"14000"
+	},
+	"timeout":"40"
+}

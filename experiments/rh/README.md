@@ -4,10 +4,11 @@ This is the main Rowhammer experiment to determine the hammer count on DDR5.
 
 ## Components
 
-1. `cnXXX.json`: These configuration files contains the rows to be hammered
-and the range of tested hammer counts. They are read by `make_images.sh`
-and `run.sh`. For machines where SPD readout is broken, you also have
-to specify the DIMM size. Otherwise that is done automatically.
+1. `cnXXX.json`: These configuration files each describe a computing node.
+They encode the rows to be hammered and the range of tested hammer counts.
+They are read by `make_images.sh` and `run.sh`. For machines where SPD readout
+is broken, you also have to specify the DIMM size. Otherwise that is done
+automatically.
 
 2. `make_images.sh`: This compiles the Memtest images with each possible
 combination of hammer count and row. It must be started first.

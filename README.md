@@ -16,7 +16,7 @@ custom software.
 You only need a single control server with a USB-to-Ethernet adapter
 (or any other NIC), so it has two NICs in total, one for normal remote access,
 one for the PXE network.
-For `n` experiment machines, you need a network switch with at least `n` ports
+For `n` experiment machines, you need a network switch with at least `n+1` ports
 and `n` injection controllers.
 You may also want `n` external GPUs, as those seem to lead to fewer crashes.
 Connect all the experiment machines, the injection controllers and the
